@@ -1,18 +1,24 @@
 /* Reset de estilos básicos para o corpo da página */
 body {
+    background-color: rgb(227, 246, 252);
     margin: 0;
     padding: 0;
 }
 
 /* Estilizando o cabeçalho (header) */
 header {
-    background-color: #ddc3c3;
+    background-color: rgb(227, 246, 252);
     color: #fff;
     padding: 20px 0;
 
 }
+
+.picada{
+    background-color: rgb(227, 246, 252);
+}
 .ovinho, .casos{
     margin-top: 20px;
+    background-color: rgb(227, 246, 252)
 }
 main{
     margin-top: 30px;
@@ -45,8 +51,8 @@ main{
 
 /* Estilizando o rodapé (footer) */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(227, 246, 252);
+    color: black;
     text-align: center;
     padding: 10px 0;
 }
