@@ -13,7 +13,15 @@ header {
 
 }
 
-.picada{
+textarea{
+    border-radius: 5px;
+    font-size: 1.2rem;
+    line-height: 2;
+    width: 35%;
+    height: 10rem;
+}
+
+.picada, .contato{
     background-color: rgb(227, 246, 252);
 }
 .ovinho, .casos{
