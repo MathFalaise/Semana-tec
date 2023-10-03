@@ -1,0 +1,69 @@
+/* Reset de estilos básicos para o corpo da página */
+body {
+    background-color: rgb(227, 246, 252);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o cabeçalho (header) */
+header {
+    background-color: rgb(227, 246, 252);
+    color: #fff;
+    padding: 20px 0;
+
+}
+
+textarea{
+    border-radius: 5px;
+    font-size: 1.2rem;
+    line-height: 2;
+    width: 35%;
+    height: 10rem;
+}
+#text {
+    color: rgba(0, 0, 0, 0.247)
+}
+
+.picada, .contato{
+    background-color: rgb(227, 246, 252);
+}
+.ovinho, .casos{
+    margin-top: 20px;
+    background-color: rgb(227, 246, 252)
+}
+main{
+    margin-top: 30px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff4500; /* Cor do texto ao passar o mouse por cima */
+}
+
+/* Estilizando o rodapé (footer) */
+footer {
+    background-color: rgb(227, 246, 252);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
